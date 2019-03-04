@@ -1,0 +1,49 @@
+{
+  "name": "gendiff-simp-lexx",
+  "version": "0.0.1",
+  "description": "Diff Generator",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "gendiff": "dist/bin/gendiff.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simp-lexx/project-lvl2-s443.git"
+  },
+  "author": "Simp-lexx",
+  "license": "ISC",
+  "keywords": [
+    "gendiff",
+    "diff generator",
+    "generate diff"
+  ],
+  "dependencies": {
+    "commander": "^2.19.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Simp-lexx/project-lvl2-s443/issues"
+  },
+  "homepage": "https://github.com/Simp-lexx/project-lvl2-s443#readme",
+  "main": "babel.config.js"
+}
