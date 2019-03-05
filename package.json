@@ -1,6 +1,6 @@
 {
-  "name": "gendiff-simp-lexx",
-  "version": "0.0.1",
+  "name": "gendiff-sl",
+  "version": "0.0.2",
   "description": "Diff Generator",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,13 +28,14 @@
     "generate diff"
   ],
   "dependencies": {
-    "commander": "^2.19.0"
+    "commander": "^2.19.0",
+    "npm": "^6.8.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
+    "@babel/core": "^7.3.4",
     "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-env": "^7.3.4",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.11.1",
     "eslint-config-airbnb-base": "^13.1.0",
