@@ -7,6 +7,8 @@ program
   .version(version)
   .arguments('<firstConfig> <secondConfig>')
   .description('Compares two configuration files and shows a difference.')
-  .option('-f, --format [type]', 'Output format', 'recursive')
-  .action((data1, data2) => console.log(genDiff(data1, data2, program.format)))
+  .option('-f, --format [type]', 'Output format')
+  .action((firstConfig, secondConfig) => {
+    console.log(genDiff(firstConfig, secondConfig, program.format));
+  })
   .parse(process.argv);
