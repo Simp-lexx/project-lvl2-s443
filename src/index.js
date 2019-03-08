@@ -1,10 +1,12 @@
 import _ from 'lodash';
 import fs from 'fs';
 import path from 'path';
+import getParser from './parsers';
 
 const readParseFile = (pathFile) => {
   const getRelFilePath = path.relative('', pathFile);
-  return { content: fs.readFileSync(getRelFilePath, 'utf-8') };
+  const getFileExtension = path.extname(pathFile);
+  return { content: fs.readFileSync(getRelFilePath, 'utf-8'), ext: getFileExtension };
 };
 
 const conditionsToCheck = [
@@ -58,8 +60,8 @@ const buildDiffTree = (obj1, obj2) => {
 const gendiff = (pathFile1, pathFile2) => {
   const data1 = readParseFile(pathFile1);
   const data2 = readParseFile(pathFile2);
-  const obj1 = JSON.parse(data1.content);
-  const obj2 = JSON.parse(data2.content);
+  const obj1 = getParser(data1.ext, data1.content);
+  const obj2 = getParser(data2.ext, data2.content);
   return diffToString(buildDiffTree(obj1, obj2));
 };
 

@@ -9,3 +9,9 @@ test('Test JSON differences', () => {
   const getExpectResult = fs.readFileSync(getFixturePath('expectResult'), 'utf-8');
   expect(getCompareResult).toBe(getExpectResult);
 });
+
+test('Test YAML differences', () => {
+  const getCompareResult = gendiff(getFixturePath('before.yml'), getFixturePath('after.yml'));
+  const getExpectResult = fs.readFileSync(getFixturePath('expectResult'), 'utf-8');
+  expect(getCompareResult).toBe(getExpectResult);
+});
