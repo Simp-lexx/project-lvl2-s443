@@ -8,6 +8,10 @@
 
 `$ npm install -g gendiff-sl`
 
-## Usage
+## Get help
 
 [![asciicast](https://asciinema.org/a/1AceHZkyt2oTo7YtQR1JoTnBY.svg)](https://asciinema.org/a/1AceHZkyt2oTo7YtQR1JoTnBY)
+
+## JSON Diff
+
+[![asciicast](https://asciinema.org/a/7aqGMU8YQGzsy96hTfk3WfltJ.svg)](https://asciinema.org/a/7aqGMU8YQGzsy96hTfk3WfltJ)
