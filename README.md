@@ -19,3 +19,7 @@
 ## YAML Diff
 
 [![asciicast](https://asciinema.org/a/Ln38Yn5ZMmW7G9iNP5Jgrbsss.svg)](https://asciinema.org/a/Ln38Yn5ZMmW7G9iNP5Jgrbsss)
+
+## INI Diff
+
+[![asciicast](https://asciinema.org/a/ZgqfKa2DDAg09bYy3OKGyAk65.svg)](https://asciinema.org/a/ZgqfKa2DDAg09bYy3OKGyAk65)
