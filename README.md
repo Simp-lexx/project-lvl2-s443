@@ -23,3 +23,7 @@
 ## INI Diff
 
 [![asciicast](https://asciinema.org/a/ZgqfKa2DDAg09bYy3OKGyAk65.svg)](https://asciinema.org/a/ZgqfKa2DDAg09bYy3OKGyAk65)
+
+## AST Render
+
+[![asciicast](https://asciinema.org/a/qbmkFvCbi6gLDWNyQH4Id40d1.svg)](https://asciinema.org/a/qbmkFvCbi6gLDWNyQH4Id40d1)
