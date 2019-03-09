@@ -28,6 +28,10 @@
 
 [![asciicast](https://asciinema.org/a/qbmkFvCbi6gLDWNyQH4Id40d1.svg)](https://asciinema.org/a/qbmkFvCbi6gLDWNyQH4Id40d1)
 
-## Output format
+## Plain Output format
 
 [![asciicast](https://asciinema.org/a/dYnnXblkm8fIB3WpeiMwpqFOu.svg)](https://asciinema.org/a/dYnnXblkm8fIB3WpeiMwpqFOu)
+
+## JSON Output format
+
+[![asciicast](https://asciinema.org/a/waPBtcPZiwLf2mYvRJia0i3jL.svg)](https://asciinema.org/a/waPBtcPZiwLf2mYvRJia0i3jL)

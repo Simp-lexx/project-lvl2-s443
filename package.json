@@ -1,6 +1,6 @@
 {
   "name": "gendiff-sl",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "Diff Generator",
   "main": "dist/index.js",
   "scripts": {

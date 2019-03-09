@@ -28,3 +28,14 @@ test.each([
     const getExpectResult = fs.readFileSync(getFixturePath(expected), 'utf-8');
     expect(getCompareResult).toBe(getExpectResult);
   });
+
+test.each([
+  ['before2.json', 'after2.json', 'expectResultJSON'],
+  ['before2.yml', 'after2.yml', 'expectResultJSON'],
+  ['before2.ini', 'after2.ini', 'expectResultJSON'],
+])('Test JSON Output Format(%s, %s)',
+  (before, after, expected) => {
+    const getCompareResult = gendiff(getFixturePath(before), getFixturePath(after), 'json');
+    const getExpectResult = fs.readFileSync(getFixturePath(expected), 'utf-8');
+    expect(getCompareResult).toBe(getExpectResult);
+  });
