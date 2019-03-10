@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-const keyPath = (path, key) => `${path}${'.'.repeat(path.length).slice(0, 1)}${key}`;
+const keyPath = (path, key) => (path ? `${path}.${key}` : `${key}`);
 
 const buildValueString = value => (_.isObject(value) ? '[complex value]' : `'${value}'`);
 
